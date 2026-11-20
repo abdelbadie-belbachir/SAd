@@ -29,7 +29,7 @@ public class fram extends javax.swing.JFrame {
     private void initComponents() {
 
         P1 = new javax.swing.JPanel();
-        R1 = new javax.swing.JComboBox<>();
+        R11 = new javax.swing.JComboBox<>();
         A2 = new javax.swing.JLabel();
         A1 = new javax.swing.JLabel();
         P3 = new javax.swing.JPanel();
@@ -53,7 +53,7 @@ public class fram extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        R1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        R11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         A2.setText("Modele");
 
@@ -67,7 +67,7 @@ public class fram extends javax.swing.JFrame {
                 .addContainerGap(114, Short.MAX_VALUE)
                 .addComponent(A2)
                 .addGap(18, 18, 18)
-                .addComponent(R1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(R11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(45, 45, 45))
             .addGroup(P1Layout.createSequentialGroup()
                 .addGap(78, 78, 78)
@@ -81,7 +81,7 @@ public class fram extends javax.swing.JFrame {
                 .addComponent(A1)
                 .addGap(18, 18, 18)
                 .addGroup(P1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(R1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(R11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(A2))
                 .addContainerGap(67, Short.MAX_VALUE))
         );
@@ -512,7 +512,7 @@ txtElement1.requestFocusInWindow();
     private javax.swing.JPanel P1;
     private javax.swing.JPanel P2;
     private javax.swing.JPanel P3;
-    private javax.swing.JComboBox<String> R1;
+    private javax.swing.JComboBox<String> R11;
     private javax.swing.JComboBox<String> R2;
     private javax.swing.JTextField T1;
     private javax.swing.JTextField T2;
