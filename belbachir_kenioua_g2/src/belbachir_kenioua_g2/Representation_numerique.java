@@ -57,7 +57,7 @@ public class fram extends javax.swing.JFrame {
 
         A2.setText("valeur");
 
-        A1.setText("choix du modele");
+        A1.setText("wee hawma ");
 
         javax.swing.GroupLayout P1Layout = new javax.swing.GroupLayout(P1);
         P1.setLayout(P1Layout);
