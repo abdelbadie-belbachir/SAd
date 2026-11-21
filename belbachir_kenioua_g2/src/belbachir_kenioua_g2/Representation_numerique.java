@@ -55,7 +55,7 @@ public class fram extends javax.swing.JFrame {
 
         R11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        A2.setText("Modele");
+        A2.setText("valeur");
 
         A1.setText("choix du modele");
 
