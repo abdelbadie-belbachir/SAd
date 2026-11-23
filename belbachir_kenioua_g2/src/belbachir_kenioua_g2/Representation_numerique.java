@@ -50,7 +50,6 @@ public class Representation_numerique extends javax.swing.JFrame {
         P1.setBackground(new java.awt.Color(153, 178, 182));
 
         R11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ordre totale ", "preordre totale", "semi_ordre" }));
-        R11.addActionListener(this::R11ActionPerformed);
 
         A2.setText("Modele :");
 
@@ -242,7 +241,7 @@ public class Representation_numerique extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap(12, Short.MAX_VALUE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(P1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(33, 33, 33))
                     .addGroup(layout.createSequentialGroup()
